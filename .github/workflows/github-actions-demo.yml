@@ -54,21 +54,21 @@ jobs:
       name: Production
       url: https://writeabout.net
     if: github.event.inputs.environment=='Production'
-      steps:
-        - run: |
-           echo "🚀 Step 1..."
-          sleep 10
+    steps:
       - run: |
-       echo "🚀 Step 2..."
-          sleep 10
-      - run: |
-       echo "🚀 Step 3..."
-          sleep 10
-      - run: |
-       echo "🚀 Step 4..."
-          sleep 10
-      - run: |
-       echo "🚀 Step 5..."
-          sleep 10
+         echo "🚀 Step 1..."
+        sleep 10
+    - run: |
+     echo "🚀 Step 2..."
+        sleep 10
+    - run: |
+     echo "🚀 Step 3..."
+        sleep 10
+    - run: |
+     echo "🚀 Step 4..."
+        sleep 10
+    - run: |
+     echo "🚀 Step 5..."
+        sleep 10
       
       
