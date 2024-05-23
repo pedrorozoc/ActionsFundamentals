@@ -45,7 +45,7 @@ jobs:
     steps:
       - run: |
           echo "🧪 Testing..."
-          slept 15
+          sleep 15
 
   Production:
     runs-on: ubuntu-latest
